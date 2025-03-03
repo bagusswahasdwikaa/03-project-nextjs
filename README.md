@@ -87,4 +87,52 @@ menjalankan perintah berikut di terminal atau command prompt:
     ![alt text](<img/browIsittgkmi.png>)
 
 ### Tugas
-     
+1. Buat halaman baru dengan menggunakan Static Site Generation (SSG) yang menampilkan daftar pengguna dari API https://jsonplaceholder.typicode.com/users.
+   
+   **pages/api/users.js**
+   
+   ![alt text](<img/tugas1api.png>)
+
+   **pages/users.js**
+
+   ![alt text](<img/tugas1pages.png>)
+
+   **Tampilan Browser**
+   
+   ![alt text](<img/daftarpengguna.png>)
+   
+2. Implementasikan Dynamic Routes untuk menampilkan detail pengguna berdasarkan ID.
+   
+   **pages/api/users/[id].js**
+
+    ![alt text](<img/tugas2api.png>)
+   
+   **pages/users/[id].js**
+
+    ![alt text](<img/tugas2pages.png>)
+
+   **Tampilan Browser**
+
+    ![alt text](<img/detailpengguna.png>)
+   
+3. Buat API route yang mengembalikan data cuaca dari API eksternal (misalnya, OpenWeatherMap) dan tampilkan data tersebut di halaman front-end.
+
+   Daftar di https://openweathermap.org/api agar mendapatkan API Key.
+
+   Buat file .env.local di root proyek nextjs, dan masukkan key api dari website https://openweathermap.org/api
+
+   ![alt text](<img/env.png>)
+
+   **pages/api/weather.js**
+
+   ![alt text](<img/tugas3api.png>)
+
+   **pages/weather.js**
+
+   ![alt text](<img/tugas3pages.png>)
+
+   **Tampilan Browser**
+
+   ![alt text](<img/infocuaca.png>)
+
+ 
